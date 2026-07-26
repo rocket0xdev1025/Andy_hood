@@ -1,14 +1,14 @@
 :root {
-  --yellow: #f6d83f;
-  --yellow-deep: #d5a900;
-  --cream: #fff9d7;
-  --ink: #17120b;
-  --charcoal: #3a3015;
-  --brown: #6d4a00;
-  --orange: #ff8f1f;
-  --white: #fffef4;
-  --line: rgba(23, 18, 11, 0.28);
-  --shadow: 0 18px 0 rgba(23, 18, 11, 0.16);
+  --green: #3ddc68;
+  --green-deep: #1fa84a;
+  --cream: #e8fcec;
+  --ink: #0f1a12;
+  --charcoal: #143022;
+  --brown: #1d6b3a;
+  --orange: #9ae64e;
+  --white: #f5fff7;
+  --line: rgba(15, 26, 18, 0.28);
+  --shadow: 0 18px 0 rgba(15, 26, 18, 0.16);
   --display-font: Impact, "Arial Black", "Cooper Black", "Arial Rounded MT Bold", system-ui, sans-serif;
   --body-font: "Trebuchet MS", "Arial Rounded MT Bold", system-ui, sans-serif;
 }
@@ -24,7 +24,7 @@ html {
 body {
   margin: 0;
   color: var(--ink);
-  background: var(--yellow);
+  background: var(--green);
   font-family: var(--body-font);
   overflow-x: hidden;
 }
@@ -38,8 +38,8 @@ a {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: #e7bc19;
-  border-bottom: 3px solid rgba(23, 18, 11, 0.22);
+  background: #2bb84f;
+  border-bottom: 3px solid rgba(15, 26, 18, 0.22);
   box-shadow: 0 3px 0 rgba(255, 255, 255, 0.26) inset;
 }
 
@@ -67,10 +67,10 @@ a {
   display: grid;
   place-items: center;
   overflow: hidden;
-  border: 2px solid rgba(23, 18, 11, 0.78);
+  border: 2px solid rgba(15, 26, 18, 0.78);
   border-radius: 50%;
-  background: var(--yellow);
-  box-shadow: 0 4px 0 rgba(23, 18, 11, 0.24);
+  background: var(--green);
+  box-shadow: 0 4px 0 rgba(15, 26, 18, 0.24);
 }
 
 .brand-mark img {
@@ -120,7 +120,7 @@ a {
   border-radius: 999px;
   padding: 12px 30px;
   background: rgba(255, 255, 255, 0.08);
-  box-shadow: 0 2px 0 rgba(23, 18, 11, 0.16);
+  box-shadow: 0 2px 0 rgba(15, 26, 18, 0.16);
 }
 
 .nav-toggle {
@@ -157,7 +157,7 @@ a {
   inset: 0;
   background:
     radial-gradient(circle at 18% 68%, rgba(255, 255, 255, 0.24), transparent 16rem),
-    radial-gradient(circle at 72% 24%, rgba(255, 143, 31, 0.32), transparent 18rem);
+    radial-gradient(circle at 72% 24%, rgba(154, 230, 78, 0.32), transparent 18rem);
   pointer-events: none;
 }
 
@@ -167,7 +167,7 @@ a {
   top: 18%;
   font-size: clamp(8rem, 23vw, 24rem);
   font-weight: 950;
-  color: rgba(116, 83, 0, 0.16);
+  color: rgba(18, 90, 45, 0.18);
   transform: rotate(-7deg);
   pointer-events: none;
 }
@@ -206,7 +206,7 @@ a {
   paint-order: stroke fill;
   text-shadow:
     5px 6px 0 var(--ink),
-    10px 12px 0 rgba(23, 18, 11, 0.18);
+    10px 12px 0 rgba(15, 26, 18, 0.18);
 }
 
 .hero h1,
@@ -227,7 +227,7 @@ a {
   paint-order: stroke fill;
   text-shadow:
     3px 4px 0 var(--ink),
-    6px 8px 0 rgba(23, 18, 11, 0.15);
+    6px 8px 0 rgba(15, 26, 18, 0.15);
 }
 
 .hero h3 {
@@ -254,7 +254,7 @@ a {
   color: var(--white);
   font-size: clamp(1.3rem, 1.1vw, 2rem);
   line-height: 1.28;
-  text-shadow: 2px 3px 0 rgba(23, 18, 11, 0.22);
+  text-shadow: 2px 3px 0 rgba(15, 26, 18, 0.22);
 }
 
 .social-row {
@@ -275,13 +275,13 @@ a {
   border: 3px solid var(--ink);
   font-size: 1.65rem;
   font-weight: 950;
-  box-shadow: 0 7px 0 rgba(23, 18, 11, 0.24);
+  box-shadow: 0 7px 0 rgba(15, 26, 18, 0.24);
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
 .social-row a:hover {
   transform: translateY(-4px) rotate(-4deg);
-  box-shadow: 0 11px 0 rgba(23, 18, 11, 0.24);
+  box-shadow: 0 11px 0 rgba(15, 26, 18, 0.24);
 }
 
 .social-link svg {
@@ -317,7 +317,7 @@ a {
 }
 
 .social-link.bscscan {
-  background: #f4c21b;
+  background: #2bb84f;
   color: var(--ink);
 }
 
@@ -339,11 +339,11 @@ a {
   color: var(--ink);
   background:
     linear-gradient(135deg, rgba(255, 255, 255, 0.62), transparent 34%),
-    linear-gradient(180deg, #ffe87b, #ffc72e);
+    linear-gradient(180deg, #b8f5c8, #3ddc68);
   border: 4px solid var(--brown);
   border-radius: 999px;
   box-shadow:
-    0 7px 0 rgba(109, 74, 0, 0.45),
+    0 7px 0 rgba(20, 90, 48, 0.45),
     0 0 0 2px rgba(255, 255, 255, 0.32) inset;
   overflow: hidden;
 }
@@ -354,10 +354,10 @@ a {
   display: grid;
   place-items: center;
   color: var(--white);
-  background: linear-gradient(180deg, #2f2612, #17120b);
+  background: linear-gradient(180deg, #143022, #0f1a12);
   border: 3px solid rgba(255, 255, 255, 0.76);
   border-radius: 50%;
-  box-shadow: 0 4px 0 rgba(109, 74, 0, 0.38);
+  box-shadow: 0 4px 0 rgba(20, 90, 48, 0.38);
   font-family: var(--display-font);
   font-style: italic;
   font-size: 1.35rem;
@@ -389,7 +389,7 @@ a {
   background: var(--cream);
   border: 3px solid var(--brown);
   border-radius: 999px;
-  box-shadow: 0 5px 0 rgba(109, 74, 0, 0.32);
+  box-shadow: 0 5px 0 rgba(20, 90, 48, 0.32);
   cursor: pointer;
   font-family: var(--display-font);
   font-style: italic;
@@ -410,7 +410,7 @@ a {
 
 .copy-ca:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 0 rgba(109, 74, 0, 0.32);
+  box-shadow: 0 8px 0 rgba(20, 90, 48, 0.32);
 }
 
 .copy-ca.is-copied {
@@ -442,7 +442,7 @@ a {
   border: 5px solid var(--ink);
   border-radius: 8px;
   background: var(--cream);
-  box-shadow: 18px 18px 0 rgba(23, 18, 11, 0.22);
+  box-shadow: 18px 18px 0 rgba(15, 26, 18, 0.22);
   transform-style: preserve-3d;
 }
 
@@ -456,8 +456,8 @@ a {
   object-fit: cover;
   border: 5px solid var(--ink);
   border-radius: 50%;
-  background: var(--yellow);
-  box-shadow: 16px 16px 0 rgba(23, 18, 11, 0.24);
+  background: var(--green);
+  box-shadow: 16px 16px 0 rgba(15, 26, 18, 0.24);
   transform: rotateY(-18deg) rotateX(10deg) translateZ(96px);
   animation: logoFloat 4s ease-in-out infinite;
 }
@@ -493,8 +493,8 @@ a {
   place-items: center;
   border: 5px solid var(--ink);
   border-radius: 50%;
-  background: radial-gradient(circle at 32% 28%, var(--cream), var(--yellow) 48%, var(--yellow-deep));
-  box-shadow: 8px 10px 0 rgba(23, 18, 11, 0.2);
+  background: radial-gradient(circle at 32% 28%, var(--cream), var(--green) 48%, var(--green-deep));
+  box-shadow: 8px 10px 0 rgba(15, 26, 18, 0.2);
   transform-style: preserve-3d;
   animation: coinSpin 2.8s linear infinite;
 }
@@ -520,7 +520,7 @@ a {
   position: absolute;
   inset: 0;
   border: 4px solid var(--ink);
-  background: rgba(255, 143, 31, 0.92);
+  background: rgba(154, 230, 78, 0.92);
 }
 
 .cube-3d span:nth-child(1) {
@@ -541,12 +541,12 @@ a {
 
 .sun-frog {
   width: min(620px, 100%);
-  filter: drop-shadow(18px 24px 0 rgba(23, 18, 11, 0.13));
+  filter: drop-shadow(18px 24px 0 rgba(15, 26, 18, 0.13));
 }
 
 .sun-frog .body,
 .about-art .body {
-  fill: #f9de45;
+  fill: #3ddc68;
   stroke: var(--ink);
   stroke-width: 8;
   stroke-linejoin: round;
@@ -554,7 +554,7 @@ a {
 
 .sun-frog .cheek,
 .about-art .cap-bill {
-  fill: #efb721;
+  fill: #2bb84f;
 }
 
 .sun-frog .eyes path,
@@ -594,11 +594,11 @@ a {
 
 .sun-frog .smile,
 .about-art .smile {
-  stroke: #8f3e10;
+  stroke: #145c32;
 }
 
 .sun-frog .hand {
-  fill: #f4d033;
+  fill: #58e87a;
   stroke: var(--ink);
   stroke-width: 7;
 }
@@ -611,7 +611,7 @@ a {
 }
 
 .sun-frog .shadow {
-  fill: rgba(23, 18, 11, 0.18);
+  fill: rgba(15, 26, 18, 0.18);
 }
 
 .exchange-strip {
@@ -632,7 +632,7 @@ a {
   color: var(--white);
   border: 2px solid rgba(255, 255, 255, 0.85);
   border-radius: 999px;
-  background: rgba(23, 18, 11, 0.16);
+  background: rgba(15, 26, 18, 0.16);
   font-size: clamp(1.1rem, 2vw, 1.7rem);
   font-family: var(--display-font);
   font-style: italic;
@@ -645,12 +645,12 @@ a {
 }
 
 .exchange-strip span {
-  color: var(--yellow);
+  color: var(--green);
 }
 
 .brush-band {
   position: relative;
-  background: #dcae16;
+  background: #27a84a;
   padding: clamp(76px, 10vw, 132px) 0;
   border-block: 12px solid var(--cream);
 }
@@ -662,7 +662,7 @@ a {
   left: 0;
   width: 100%;
   height: 18px;
-  background: repeating-linear-gradient(90deg, transparent 0 72px, rgba(23, 18, 11, 0.28) 72px 78px, transparent 78px 146px);
+  background: repeating-linear-gradient(90deg, transparent 0 72px, rgba(15, 26, 18, 0.28) 72px 78px, transparent 78px 146px);
   opacity: 0.35;
 }
 
@@ -686,7 +686,7 @@ a {
   width: min(540px, 100%);
   display: block;
   margin-inline: auto;
-  filter: drop-shadow(12px 18px 0 rgba(23, 18, 11, 0.12));
+  filter: drop-shadow(12px 18px 0 rgba(15, 26, 18, 0.12));
 }
 
 .image-tilt {
@@ -698,7 +698,7 @@ a {
   object-fit: cover;
   border: 5px solid var(--ink);
   border-radius: 8px;
-  box-shadow: 18px 18px 0 rgba(23, 18, 11, 0.18);
+  box-shadow: 18px 18px 0 rgba(15, 26, 18, 0.18);
   transform: rotateY(11deg) rotateX(4deg);
   animation: imageTilt 5s ease-in-out infinite;
 }
@@ -718,7 +718,7 @@ a {
   font-size: clamp(1.1rem, 2vw, 1.48rem);
   line-height: 1.35;
   color: var(--white);
-  text-shadow: 1px 2px 0 rgba(23, 18, 11, 0.22);
+  text-shadow: 1px 2px 0 rgba(15, 26, 18, 0.22);
 }
 
 .about-copy p {
@@ -733,8 +733,8 @@ a {
   margin: 0 0 18px;
   border: 4px solid var(--ink);
   border-radius: 50%;
-  background: var(--yellow);
-  box-shadow: 7px 8px 0 rgba(23, 18, 11, 0.22);
+  background: var(--green);
+  box-shadow: 7px 8px 0 rgba(15, 26, 18, 0.22);
   animation: badgeBounce 3.8s ease-in-out infinite;
 }
 
@@ -748,8 +748,8 @@ a {
   padding: clamp(82px, 11vw, 150px) 0;
   background:
     linear-gradient(135deg, rgba(255, 255, 255, 0.26), transparent 34%),
-    radial-gradient(circle at 78% 30%, rgba(255, 143, 31, 0.42), transparent 24rem),
-    var(--yellow);
+    radial-gradient(circle at 78% 30%, rgba(154, 230, 78, 0.42), transparent 24rem),
+    var(--green);
 }
 
 .gallery-layout {
@@ -769,7 +769,7 @@ a {
   color: var(--white);
   font-size: clamp(1.1rem, 2vw, 1.4rem);
   line-height: 1.36;
-  text-shadow: 1px 2px 0 rgba(23, 18, 11, 0.22);
+  text-shadow: 1px 2px 0 rgba(15, 26, 18, 0.22);
 }
 
 .gallery-copy h2 {
@@ -788,7 +788,7 @@ a {
   paint-order: stroke fill;
   text-shadow:
     5px 6px 0 var(--ink),
-    10px 12px 0 rgba(23, 18, 11, 0.18);
+    10px 12px 0 rgba(15, 26, 18, 0.18);
 }
 
 .gallery-button {
@@ -799,10 +799,10 @@ a {
   justify-content: center;
   padding: 18px 34px;
   color: var(--ink);
-  background: linear-gradient(180deg, #ffd75a, #ffb400);
+  background: linear-gradient(180deg, #9ae64e, #3ddc68);
   border: 5px solid var(--ink);
   border-radius: 18px;
-  box-shadow: 0 9px 0 rgba(23, 18, 11, 0.32);
+  box-shadow: 0 9px 0 rgba(15, 26, 18, 0.32);
   font-family: var(--display-font);
   font-style: italic;
   font-size: clamp(1.55rem, 2.7vw, 2.5rem);
@@ -815,7 +815,7 @@ a {
 
 .gallery-button:hover {
   transform: translateY(-4px);
-  box-shadow: 0 13px 0 rgba(23, 18, 11, 0.32);
+  box-shadow: 0 13px 0 rgba(15, 26, 18, 0.32);
 }
 
 .carousel-scene {
@@ -853,13 +853,13 @@ a {
   border: 5px solid var(--ink);
   border-radius: 8px;
   background: var(--cream);
-  box-shadow: 12px 14px 0 rgba(23, 18, 11, 0.22);
+  box-shadow: 12px 14px 0 rgba(15, 26, 18, 0.22);
   transition: transform 220ms ease, box-shadow 220ms ease;
 }
 
 .carousel-ring figure:hover img {
   transform: translateZ(34px) scale(1.04);
-  box-shadow: 18px 20px 0 rgba(23, 18, 11, 0.28);
+  box-shadow: 18px 20px 0 rgba(15, 26, 18, 0.28);
 }
 
 .narrow {
@@ -890,7 +890,7 @@ a {
   padding: 22px 34px;
   border: 2px solid var(--cream);
   border-radius: 0 18px 18px 0;
-  background: linear-gradient(180deg, #473917, #302711);
+  background: linear-gradient(180deg, #163825, #0f2418);
   color: var(--white);
   box-shadow: var(--shadow);
 }
@@ -902,7 +902,7 @@ a {
   place-items: center;
   border-radius: 18px;
   color: var(--ink);
-  background: var(--yellow);
+  background: var(--green);
   border: 4px solid var(--ink);
   font-size: 2.35rem;
   font-weight: 950;
@@ -910,15 +910,15 @@ a {
 }
 
 .step-icon.coins {
-  background: #65c8ff;
+  background: #7ee8a0;
 }
 
 .step-icon.swap {
-  background: #ff4fa3;
+  background: #a8f06a;
 }
 
 .step-icon.shine {
-  background: #f8efe2;
+  background: #e8fcec;
 }
 
 .step-card h3 {
@@ -943,7 +943,7 @@ a {
   padding: clamp(64px, 9vw, 110px) 0;
   background:
     linear-gradient(135deg, rgba(255, 255, 255, 0.2), transparent 35%),
-    var(--yellow);
+    var(--green);
 }
 
 .bridge-panel {
@@ -955,7 +955,7 @@ a {
   border: 4px solid var(--ink);
   border-radius: 8px;
   background: var(--orange);
-  box-shadow: 14px 14px 0 rgba(23, 18, 11, 0.22);
+  box-shadow: 14px 14px 0 rgba(15, 26, 18, 0.22);
 }
 
 .bridge-panel .eyebrow {
@@ -981,7 +981,7 @@ a {
   object-fit: cover;
   border: 4px solid var(--ink);
   border-radius: 8px;
-  box-shadow: 10px 12px 0 rgba(23, 18, 11, 0.2);
+  box-shadow: 10px 12px 0 rgba(15, 26, 18, 0.2);
   transform: rotateY(-14deg) rotateX(4deg);
   transform-style: preserve-3d;
   animation: imageTilt 4.8s ease-in-out infinite reverse;
@@ -1066,7 +1066,7 @@ a {
 
 .tokenomics {
   padding: clamp(76px, 10vw, 132px) 0;
-  background: var(--yellow);
+  background: var(--green);
 }
 
 .token-grid {
@@ -1115,7 +1115,7 @@ a {
   border: 4px solid var(--ink);
   border-radius: 8px;
   background: var(--cream);
-  box-shadow: 10px 10px 0 rgba(23, 18, 11, 0.18);
+  box-shadow: 10px 10px 0 rgba(15, 26, 18, 0.18);
   text-align: center;
 }
 
@@ -1126,7 +1126,7 @@ a {
   font-weight: 950;
   -webkit-text-stroke: 1.5px var(--ink);
   paint-order: stroke fill;
-  text-shadow: 3px 4px 0 rgba(23, 18, 11, 0.24);
+  text-shadow: 3px 4px 0 rgba(15, 26, 18, 0.24);
 }
 
 .token-card p {
@@ -1158,7 +1158,7 @@ a {
   object-fit: cover;
   border: 5px solid var(--ink);
   border-radius: 8px;
-  box-shadow: 16px 18px 0 rgba(23, 18, 11, 0.2);
+  box-shadow: 16px 18px 0 rgba(15, 26, 18, 0.2);
   transform: rotateY(10deg) rotateX(3deg);
   animation: imageTilt 5.4s ease-in-out infinite;
 }
@@ -1179,10 +1179,10 @@ a {
   display: grid;
   gap: 16px;
   color: var(--white);
-  background: linear-gradient(180deg, #473917, #302711);
+  background: linear-gradient(180deg, #163825, #0f2418);
   border: 3px solid var(--cream);
   border-radius: 0 24px 24px 0;
-  box-shadow: 14px 16px 0 rgba(23, 18, 11, 0.18);
+  box-shadow: 14px 16px 0 rgba(15, 26, 18, 0.18);
 }
 
 .roadmap li {
@@ -1207,7 +1207,7 @@ a {
 }
 
 .roadmap span {
-  color: var(--yellow);
+  color: var(--green);
 }
 
 .site-footer {
@@ -1305,7 +1305,7 @@ a {
     padding: 22px;
     border: 3px solid var(--ink);
     border-radius: 8px;
-    background: #e7bc19;
+    background: #2bb84f;
   }
 
   .nav-links.is-open {
@@ -1417,8 +1417,8 @@ a {
   .brand-text,
   .eyebrow {
     text-shadow:
-      3px 4px 0 #5f4300,
-      6px 7px 0 rgba(95, 67, 0, 0.18);
+      3px 4px 0 #145c32,
+      6px 7px 0 rgba(20, 92, 50, 0.18);
   }
 
   .gallery-copy h2 {
@@ -1427,8 +1427,8 @@ a {
     margin-bottom: 22px;
     -webkit-text-stroke: 2px var(--ink);
     text-shadow:
-      3px 4px 0 #5f4300,
-      6px 7px 0 rgba(95, 67, 0, 0.18);
+      3px 4px 0 #145c32,
+      6px 7px 0 rgba(20, 92, 50, 0.18);
   }
 
   .gallery-button {
@@ -1459,8 +1459,8 @@ a {
     border-radius: 18px;
     background:
       linear-gradient(135deg, rgba(255, 255, 255, 0.7), transparent 42%),
-      linear-gradient(180deg, #fff1a0, #ffd03d);
-    box-shadow: 0 6px 0 rgba(109, 74, 0, 0.34);
+      linear-gradient(180deg, #d4fadf, #3ddc68);
+    box-shadow: 0 6px 0 rgba(20, 90, 48, 0.34);
   }
 
   .hero-copy > .contract-box {
@@ -1470,10 +1470,10 @@ a {
   .contract-label {
     width: 44px;
     color: var(--ink);
-    background: linear-gradient(180deg, #ffe77b, #ffc31c);
+    background: linear-gradient(180deg, #b8f5c8, #3ddc68);
     border: 3px solid var(--brown);
     border-radius: 12px;
-    box-shadow: 0 3px 0 rgba(109, 74, 0, 0.26);
+    box-shadow: 0 3px 0 rgba(20, 90, 48, 0.26);
     font-size: 1.05rem;
   }
 
@@ -1487,9 +1487,9 @@ a {
     min-height: 46px;
     width: 100%;
     color: var(--brown);
-    background: linear-gradient(180deg, #fffced, #fff1b0);
+    background: linear-gradient(180deg, #f5fff7, #d4fadf);
     border-color: var(--brown);
-    box-shadow: 0 4px 0 rgba(109, 74, 0, 0.24);
+    box-shadow: 0 4px 0 rgba(20, 90, 48, 0.24);
   }
 
   .meme-stage {
@@ -1500,7 +1500,7 @@ a {
     inset: 12% 0 auto auto;
     width: 77%;
     border-width: 3px;
-    box-shadow: 10px 10px 0 rgba(23, 18, 11, 0.2);
+    box-shadow: 10px 10px 0 rgba(15, 26, 18, 0.2);
   }
 
   .hero-logo-card {
@@ -1508,7 +1508,7 @@ a {
     top: 3%;
     width: 36%;
     border-width: 3px;
-    box-shadow: 10px 10px 0 rgba(23, 18, 11, 0.2);
+    box-shadow: 10px 10px 0 rgba(15, 26, 18, 0.2);
   }
 
   .section-logo {
@@ -1570,7 +1570,7 @@ a {
     height: 100%;
     aspect-ratio: 1;
     border-width: 4px;
-    box-shadow: 8px 9px 0 rgba(23, 18, 11, 0.2);
+    box-shadow: 8px 9px 0 rgba(15, 26, 18, 0.2);
   }
 
   .exchange-strip {
